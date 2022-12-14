@@ -3051,6 +3051,16 @@ caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001400, caniuse-lite@^1.0.30001426:
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001431.tgz#e7c59bd1bc518fae03a4656be442ce6c4887a795"
   integrity sha512-zBUoFU0ZcxpvSt9IU66dXVT/3ctO1cy4y9cscs1szkPlcWb6pasYM144GqrUygUbT+k7cmUCW61cvskjcv0enQ==
 
+carbon-components@10.52.0:
+  version "10.52.0"
+  resolved "https://registry.yarnpkg.com/carbon-components/-/carbon-components-10.52.0.tgz#07db35dddbc5f9e5042e8621a781e9cb96fce0fa"
+  integrity sha512-itiG52GdDGxGh4IyuIV7gsuQCE1LLD2FCTEp5bPGhF/Onn042QzGendjl+yE7kfUk3FVlWmHN216dh/mA2sdZg==
+  dependencies:
+    "@carbon/telemetry" "0.0.0-alpha.6"
+    flatpickr "4.6.1"
+    lodash.debounce "^4.0.8"
+    warning "^3.0.0"
+
 carbon-components@10.55.0:
   version "10.55.0"
   resolved "https://registry.yarnpkg.com/carbon-components/-/carbon-components-10.55.0.tgz#d9c876f29bd99c67f50d751d200be4b32327f396"
@@ -3080,6 +3090,18 @@ carbon-components@10.58.5:
     flatpickr "4.6.1"
     lodash.debounce "^4.0.8"
     warning "^3.0.0"
+
+carbon-web-components@^1.21.0:
+  version "1.21.0"
+  resolved "https://registry.yarnpkg.com/carbon-web-components/-/carbon-web-components-1.21.0.tgz#038276cc7fc786919730d93a143c5255d23aa921"
+  integrity sha512-rSLmyiVTH4Ffz1Hq4QRHaCfy63y3AC9Er/k9COkmW73zkFOnyfIGQ+rZrvQof0z1jz0b1dfGdp7eRctbwVTcsA==
+  dependencies:
+    "@babel/runtime" "^7.16.3"
+    carbon-components "10.52.0"
+    flatpickr "4.6.1"
+    lit-element "^2.5.1"
+    lit-html "^1.4.1"
+    lodash-es "^4.17.21"
 
 case-sensitive-paths-webpack-plugin@^2.3.0:
   version "2.4.0"
